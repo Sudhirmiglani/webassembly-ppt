@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WebAssembly</title>
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme/black.css">
+</head>
+<body>
+<div class="reveal">
+  <div class="slides">
+    <section>
+
+      <section>
+        WebAssembly
+      </section>
+      <section>
+        What?
+      </section>
+
+
+    </section>
+    <section>What is it??</section>
+
+    <section>Let's get back to basics. You want to run something on computer</section>
+
+    <section>Goal: you want to tell the computer what to do.</section>
+
+    <section>Problem: you and the computer speak different languages.</section>
+
+    <section>
+      You speak a human language, and the computer speaks a machine language
+      <img data-src="images/human-alien.png">
+    </section>
+
+    <section>Solution : Programming Language. They are a bridge between Human thought & Machine processing</section>
+
+    <section>
+      But ! Sometimes the bridge is like this
+      <img data-src="images/moving-bridge.gif">
+    </section>
+
+    <section>
+      Machine Language
+      1001010101010101010000011100
+    </section>
+
+    <section>
+      Assembly
+      mox a 1
+      mov b 2
+      add a b
+      push c
+    </section>
+
+    <section>
+      Lower Level Language
+      // code example of C/C++/Rust
+    </section>
+
+    <section>
+      Higher Level Language
+      // code example of Javascript
+    </section>
+
+    <section>So, what's the problem then??</section>
+
+    <section>Higher Level -> Less Efficient</section>
+
+    <section>
+      Example code of Js using dynamic variables
+      eg. var a = 10;
+          var b = a;
+          console.log(b);
+      Problem : We don't know the type of b.
+    </section>
+
+    <section>
+    One Solution :
+    eg. var a = 10;
+    var b = a | 0;
+    console.log(b);
+    Explanation : This will always make sure that b will always be a 32 bit int
+    </section>
+
+    <section>
+      One Solution :
+      eg. var a = 10;
+      var b = a | 0;
+      console.log(b);
+      Explanation : This will always make sure that b will always be a 32 bit int
+
+      This is ASM.JS
+    </section>
+
+
+
+  </div>
+</div>
+<script src="scripts/reveal.js"></script>
+<script>
+    Reveal.initialize();
+</script>
+
+
+</body>
+</html>
