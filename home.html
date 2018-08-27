@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>WebAssembly</title>
   <link rel="stylesheet" href="css/reveal.css">
-  <link rel="stylesheet" href="css/theme/black.css">
+  <link rel="stylesheet" href="css/theme/white.css">
 </head>
 <body>
 <div class="reveal">
@@ -70,17 +70,17 @@
     <section>
       Example code of Js using dynamic variables
       eg. var a = 10;
-          var b = a;
-          console.log(b);
+      var b = a;
+      console.log(b);
       Problem : We don't know the type of b.
     </section>
 
     <section>
-    One Solution :
-    eg. var a = 10;
-    var b = a | 0;
-    console.log(b);
-    Explanation : This will always make sure that b will always be a 32 bit int
+      One Solution :
+      eg. var a = 10;
+      var b = a | 0;
+      console.log(b);
+      Explanation : This will always make sure that b will always be a 32 bit int
     </section>
 
     <section>
@@ -93,7 +93,48 @@
       This is ASM.JS
     </section>
 
+    <section>
+      <section>
+        Now What is WebAssembly then?
+      </section>
 
+      <section>
+        It is an extension to ASM.js.
+        WebAssembly defines an Abstract Syntax Tree (AST) that gets stored in a binary format. Binary is great because
+        it means we can create smaller app bundles.
+      </section>
+
+      <section>
+        WebAssembly fills in the gaps
+        that would be awkward to fill
+        with JavaScript.
+      </section>
+
+    </section>
+
+    <section>
+
+      <section>
+        Where going to use WebAssembly
+      </section>
+
+      <section>
+        Games, VR, Augmented Reality
+      </section>
+
+    </section>
+
+    <section>
+
+      <section>
+        Let's see some action now
+      </section>
+
+      <section>
+        https://wasdk.github.io/WasmFiddle/?1ctp6o
+      </section>
+
+    </section>
 
   </div>
 </div>
