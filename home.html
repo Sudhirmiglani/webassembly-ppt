@@ -9,20 +9,10 @@
 <body>
 <div class="reveal">
   <div class="slides">
-    <section>
 
-      <section>
-        WebAssembly
-      </section>
-      <section>
-        What?
-      </section>
+    <section>Hello !</section>
 
-
-    </section>
-    <section>What is it??</section>
-
-    <section>Let's get back to basics. You want to run something on computer</section>
+    <section>Let's start from basics. You want to run something on computer</section>
 
     <section>Goal: you want to tell the computer what to do.</section>
 
@@ -33,7 +23,10 @@
       <img data-src="images/human-alien.png">
     </section>
 
-    <section>Solution : Programming Language. They are a bridge between Human thought & Machine processing</section>
+    <section>
+      <p>Solution : Programming Language.</p>
+      <p>They are a bridge between Human thought & Machine processing</p>
+    </section>
 
     <section>
       But ! Sometimes the bridge is like this
@@ -41,8 +34,8 @@
     </section>
 
     <section>
-      Machine Language
-      1001010101010101010000011100
+      <p>Machine Language</p>
+      <img data-src="images/machine-code.png">
     </section>
 
     <section>
@@ -59,8 +52,8 @@
     </section>
 
     <section>
-      Higher Level Language
-      // code example of Javascript
+      <p>Higher Level Language</p>
+      <img data-src="images/js-code.png">
     </section>
 
     <section>So, what's the problem then??</section>
@@ -68,32 +61,36 @@
     <section>Higher Level -> Less Efficient</section>
 
     <section>
-      <p>Example code of Js using dynamic variables</p>
-      <img data-src="images/code.png">
+      <p>Example</p>
+      <img data-src="images/js-code.png">
       <p>Problem : We don't know the type of b.</p>
     </section>
 
     <section>
-      One Solution :
-      eg. var a = 10;
-      var b = a | 0;
-      console.log(b);
-      Explanation : This will always make sure that b will always be a 32 bit int
+      <p>One Solution</p>
+      <img data-src="images/asm-code.png">
+      <p>Explanation : This will make sure that b will always be a 32 bit int</p>
     </section>
 
     <section>
-      One Solution :
-      eg. var a = 10;
-      var b = a | 0;
-      console.log(b);
-      Explanation : This will always make sure that b will always be a 32 bit int
-
-      This is ASM.JS
+      <p>One Solution</p>
+      <img data-src="images/asm-code.png">
+      <p>Explanation : This will make sure that b will always be a 32 bit int</p>
+      <p>This is ASM.JS</p>
     </section>
 
     <section>
       <section>
-        Now What is WebAssembly then?
+        WebAssembly
+      </section>
+      <section>
+        What??
+      </section>
+    </section>
+
+    <section>
+      <section>
+        Now What is WebAssembly?
       </section>
 
       <section>
@@ -107,7 +104,6 @@
 
     </section>
 
-
     <section>
 
       <section>
@@ -116,6 +112,10 @@
 
       <section>
         https://wasdk.github.io/WasmFiddle/?1ctp6o
+      </section>
+
+      <section>
+        <img data-src="images/comparison.png">
       </section>
 
     </section>
@@ -144,7 +144,7 @@
         <ul>
           <li>Adobe Connect</li>
           <li>AcrobatJs</li>
-          <li>AcrobatJs</li>
+          <li>Others</li>
         </ul>
       </section>
 
@@ -163,6 +163,28 @@
       </section>
 
 
+    </section>
+
+    <section>
+
+      <section>
+        <p>Future</p>
+        <ul>
+          <li>Multi threading Support</li>
+          <li>Easy Debugging - Source Map etc.</li>
+          <li>JS to WebAssembly porting</li>
+        </ul>
+
+      </section>
+
+
+    </section>
+
+    <section>
+      <p>Thanks & References</p>
+
+      <p>https://hacks.mozilla.org/2017/02/a-cartoon-intro-to-webassembly/</p>
+      <p>https://www.youtube.com/watch?v=kq2HBddiyh0</p>
     </section>
 
   </div>
